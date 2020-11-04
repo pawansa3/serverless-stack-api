@@ -1,6 +1,6 @@
 import * as uuid from 'uuid';
-import handler from './libs/handler-lib'
-import dynamoDb from './libs/dynamodb-lib'
+import handler from './libs/handler-lib';
+import dynamoDb from './libs/dynamodb-lib';
 
 export const main = handler(async (event, context) => {
     // Request body is passed in as a JSON encoded string in 'event.body'
